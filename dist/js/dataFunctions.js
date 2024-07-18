@@ -57,7 +57,7 @@ export const getCoordsFromApi = async (entryText, units) => {
     } */
 
     const urlDataObj = {
-        text: entryText,
+        entryText: entryText,
         units: units
     };
     try {
